@@ -2,9 +2,132 @@
 
 <html>
     <head>
-        <title>My first website</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Yuliia Ihnatesku's frequently shared links">
+    
+      <style>
+        html {
+          min-height: 100%;
+        }
+    
+        body {
+          min-height: 100%;
+          padding-top: 40px;
+          padding-bottom: 40px;
+          background: linear-gradient(180deg, #ff0000, #e57474, #de4c4c, #ac255e, #ca485c, #e16b5c, #f39060, #ffb56b);
+          color: rgb(255, 255, 255);
+          font-family: "Helvetica";
+        }
+    
+        .avatar-image {
+          width: 128px;
+          height: 128px;
+          object-fit: cover;
+          border-radius: 128px;
+        }
+    
+        .thumbnail {
+          width: 48px;
+          height: 48px;
+          border-radius: 48px;
+          object-fit: cover;
+        }
+    
+        a {
+          color: rgba(255, 255, 255, 1.0);
+          text-decoration: none;
+        }
+    
+        .item {
+          background-color: rgba(149, 123, 173, 0.5);
+          border-radius: 200px;
+          padding: 5px 53px 5px 5px;
+          box-shadow: 2px 2px 10px 0px rgba(122, 32, 122, 0.25);
+        }
+    
+        .main-container {
+          max-width: 640px;
+          margin: auto;
+        }
+    
+        .image-row {
+          margin-bottom: 20px;
+          text-align: center;
+        }
+    
+        .name-row {
+          margin-bottom: 30px;
+          text-align: center;
+          font-family: "Playfair Display";
+          font-size: 24px;
+          font-weight: 900;
+        }
+    
+        .social-icons-row {
+          margin-bottom: 30px;
+          display: flex;
+          justify-content: space-around;
+        }
+    
+        .item {
+          margin-bottom: 20px;
+          display: flex;
+          align-items: center;
+        }
+    
+        .link-text {
+          text-align: center;
+          flex-grow: 1;
+        }
+    
+      </style>
 <body>
-<h1>My link-in-bio</h1>
+  <div class="main-container">
+    <div class="image-row">
+      <img src="profile-pic.jpg" alt="Yuliia Ihnatesku headshot" class="avatar-image">
+    </div>
+
+    <div class="name-row">
+      Yuliia Ihnatesku
+    </div>
+
+    <div class="social-icons-row">
+
+      <a href="https://www.linkedin.com/in/yuliia-ihnatesku-84b065223/" target="_blank">
+        LinkedIn
+      </a>
+
+      <a href="https://www.instagram.com/ihnatescuu/" target="_blank">
+        Instagram
+      </a>
+
+      <a href="https://github.com/jeremydumalig/Sports-Analytics-Group" target="_blank">
+        GitHub
+      </a>
+    </div>
+
+    <div class="links-row">
+      <div class="item">
+        <img src="/thumbnails/yc.png">
+
+        <a target="_blank" href="https://www.formula1.com/">
+          The Official Home of Formula 1
+        </a>
+      </div>
+
+      <div class="item">
+        <img src="/thumbnails/typography.jpg">
+
+        <a target="_blank" href="https://www.the-race.com/">
+          All the latest motorsport news, videos and podcasts.
+        </a>
+      </div>
+
+      <!-- Etc etc, for as many items as you want in your list -->
+
+    </div> <!-- links-row -->
+  </div> <!-- main-container -->
 
 </body>
     </head>
